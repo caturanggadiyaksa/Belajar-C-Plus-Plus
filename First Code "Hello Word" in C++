@@ -1,0 +1,12 @@
+Dikali inii kita akan menjalankan program dengan output HELLO WORD dengan menggunakan bahasa C++
+
+Untuk penulisan kode silahkan lihat di bawah
+
+//ini baris kode
+#include <iostream> //Standar Library
+using namespace std; 
+
+int main() //deklarasi Fungsi
+{
+  cout << "HELLO WORD" << endl; //Cout untuk menghasilkan progam keluaran //dan untuk di akhir progam harus ada titik koma
+}
