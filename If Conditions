@@ -1,0 +1,17 @@
+Di Halaman kali ini kita akan belajar tentang If Condition 
+
+untuk pnulisan kode nya silahkan lihat di bawah ini
+
+//code
+#include <iostream> //library
+using name space std;
+
+int main()  //main fungsi
+{
+  if(kondisi) //dalam kurung menandakan suatu kondisi itu
+  {
+    cout << "Nilai A" << endl; //jika kondisi memenuhi syarat maka akan terlihat keluaran "Nilai A" jika salah maka tidak akan ada outputnya
+  }
+  
+  return 0;
+}
