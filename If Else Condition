@@ -1,0 +1,27 @@
+Di Halaman kali ini kita akan mempelajari If Else Condition
+
+Untuk kode nya silahkan lihat dibawah berikut
+
+//code
+#include <iostream> //Library
+using namespace std;
+
+int main()  //Main Header
+{
+  int nilai; //deklarasi Nilai
+  
+  cout << "Nilai Anda :" << endl; //untuk hasil keluaran(outpout)
+  cin >>nilai;  //untuk hasil masukan(input)
+  
+  if(nilai >=80 && nilai <=100 )  //kondisi nya lebih atau sama dengan 80 dan kurang atau sama dengan 100
+  {
+    cout << "Selamat Anda Lulus"; //jika kondisi benar maka akan keluar output "Selamat Anda Lulus"
+  }
+  
+  else //jika salah
+  {
+    cout << "Anda Gagal!!!!" ;  //maka akan ada output "Anda Gagal!!!!"
+  }
+  
+  return 0; //int main selalu return
+}
